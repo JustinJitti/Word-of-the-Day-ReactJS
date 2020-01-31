@@ -1,0 +1,30 @@
+{
+  "name": "word-of-the-day",
+  "version": "1.0.0",
+  "description": "Displaying a word a day",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinJitti/Word-of-the-Day-ReactJS.git"
+  },
+  "author": "JJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinJitti/Word-of-the-Day-ReactJS/issues"
+  },
+  "homepage": "https://github.com/JustinJitti/Word-of-the-Day-ReactJS#readme",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
